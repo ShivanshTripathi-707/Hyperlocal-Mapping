@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import MapPicker from "../components/MapPicker";
 
-const API = "http://localhost:5000/api";
+const API = "https://hyperlocal-mapping.onrender.com/api";
 
 export default function Doc() {
   const navigate = useNavigate();

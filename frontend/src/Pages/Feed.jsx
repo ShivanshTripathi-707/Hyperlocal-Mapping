@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
 
-const API = "http://localhost:5000/api";
+const API = "https://hyperlocal-mapping.onrender.com/api";
 
 function PostMap({ areaName, coordinates }) {
   const mapRef = useRef(null);

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://hyperlocal-mapping.onrender.com/api";
 
 export default function Signup() {
   const navigate = useNavigate();
